@@ -1,0 +1,77 @@
+body{
+    -webkit-transition-property: background-color;
+    -webkit-transition-duration: 250ms;
+}
+
+.todo {
+    color: #af2f2f !important;
+    font-weight:bold;
+}
+
+.amd {
+    color:#42a4ec !important;
+    font-weight:bold;
+}
+
+.endSection body {
+    background-color:#ccc;
+}
+
+.pull-left {
+    float:left;
+}
+
+.pull-right {
+    float:right
+}
+
+.align-left {
+    text-align:left;
+}
+.align-right {
+    text-align:right;
+}
+
+code {
+    clear:both;
+}
+
+blockquote::before {
+    content: "“";
+    position: absolute;
+    top: -15px;
+    left: 0;
+    font-size: 5em;
+    line-height: 1;
+    color: hsl(180, 14%, 58%);
+    z-index: 1;
+    font-family:serif;
+
+}
+
+blockquote::after {
+    content: "";
+    display:none;
+}
+
+blockquote {
+    padding-left:100px !important;
+    padding-right:15px !important;
+    text-align:justify;
+    width:90% !important;
+}
+
+cite {
+    color:#af2f2f;
+    text-align:right;
+    display:block;
+}
+
+.data {
+    color:hsl(187, 100%, 46%);
+}
+
+.collections {
+    color: hsl(130, 100%, 25%);
+}
+
